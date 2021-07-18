@@ -39,7 +39,7 @@ const check = () => {
             result = 'нолики';
             preResult(result);
         } else if (
-            move == 9
+            move === 9
         ) {
             result = 'ничья';
             preResult(result);
